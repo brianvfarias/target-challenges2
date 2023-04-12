@@ -1,0 +1,51 @@
+.app {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  height: 25rem;
+  width: 25rem;
+  border-radius: 6px;
+  border: 1px solid black;
+  background-color: #262626;
+  margin: 1rem;
+  padding: 0.5rem;
+}
+
+.fieldset {
+  width: 18.75rem;
+  height: 18.75rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  border: none;
+}
+
+.fieldset input {
+  padding: 1rem;
+  font-size: 1rem;
+}
+
+.fieldset button,
+.fieldset input {
+  width: 12rem;
+  border-radius: 6px;
+  border: none;
+}
+
+.fieldset button {
+  color: rgb(218, 214, 214);
+  font-weight: bold;
+  background-color: #478ea5;
+  height: 1.75rem;
+}
+
+.fieldset button:hover {
+  color: white;
+  font-weight: bold;
+  background-color: #6ab2ca;
+  height: 1.75rem;
+}
