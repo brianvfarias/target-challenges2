@@ -1,6 +1,6 @@
 # Desafios Target
 
-A seguir segue as respostas dos desafios. Em alguns casos a resposta é ilustrada em forma de imagem ou texto, já em outras ela está na forma de links para os repositórios com o código que responde à pergunta/desafio
+Seguem as respostas dos desafios. Em alguns casos a resposta é ilustrada em forma de imagem ou texto, já em outras ela está na forma de links para os repositórios com o código que responde à pergunta/desafio
 
 ## Pergunta 1:
 _1. Observe o trecho de código abaixo:_
@@ -29,7 +29,7 @@ A figura abaixo ilustra uma versão alternativa do código mencionado na pergunt
 
 ![Answer Question 1](./target-challenge/images/target-answer1.png)
 
-A resposta, portanto, é __91__.
+O valor da variável _SOMA_, portanto, será __91__ no final do prcessamento.
 
 
 
@@ -55,11 +55,13 @@ Ou, se você preferir pode baixar o código do link abaixo e rodá-lo na sua má
 
 ***
 **_NOTA:_**  É importante ter o Node.JS instalado e rodar os comandos:
-> npm i //para instalar as dependências do código
->
+```bash
+ npm i //para instalar as dependências do código
+
  e
-> 
-> npm run dev //para rodar o código
+
+ npm run dev //para rodar o código
+```
 ***
 
 
@@ -88,12 +90,11 @@ __RESPOSTA:__
 
 a. 1, 3, 5, 7, __=> 9 (números ímpares)__
 
-
 b. 2, 4, 8, 16, 32, 64, __=> 128 (2 elevado a _n_)__
 
 c. 0, 1, 4, 9, 16, 25, 36, __=> 49 (_n_ elevado a 2)__
 
-d. 4, 16, 36, 64, __ => __
+d. 4, 16, 36, 64, __=> 100 (números pares elevados a 2)__
 
 e. 1, 1, 2, 3, 5, 8, __=> 13 (sequência de fibonacci)__
 
@@ -116,9 +117,14 @@ _c. Explique como chegou no resultado._
 __RESPOSTA:__
 
 
+Quando os dois veículos se cruzarem, independente do ponto, ambos estarão à mesma distância da cidade de Ribeirão Preto!
 
+Explicação:
+Do ponto de vista lógico é simples determinar que os dois veículos estarão à mesma distância da cidade, visto que, por definição, quando eles se cruzam eles se encontram no mesmo ponto da rodovia.
 
+É possível, apesar disso, determinar o ponto da rodovia em que eles se encontram através de alguns cálculos e considerações. Se essa parte da explicação for uma parte importante da avaliação, segue o link da resposta:
 
+[Ponto em que os veículos se encontram - Com cálculos](./readme.mdtarget-challenge/explicacao_4/)
 
 ## Pergunta 5:
 
@@ -134,7 +140,7 @@ _b. Evite usar funções prontas, como, por exemplo, reverse;_
 
 __RESPOSTA:__
 
-A resposta do 5º desafios foi implementada usando a linguagem PHP. Além disso, usei Bootstrap para dar um visual mais agradável à aplicação!
+A resposta do 5º desafio foi implementada usando a linguagem PHP. Além disso, usei Bootstrap para dar um visual mais agradável à aplicação!
 
 É possível ver como o código funciona na prática no vídeo abaixo:
 
