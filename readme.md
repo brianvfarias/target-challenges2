@@ -124,7 +124,7 @@ Do ponto de vista lógico é simples determinar que os dois veículos estarão �
 
 É possível, apesar disso, determinar o ponto da rodovia em que eles se encontram através de alguns cálculos e considerações. Se essa parte da explicação for uma parte importante da avaliação, segue o link da resposta:
 
-[Ponto em que os veículos se encontram - Com cálculos](./readme.mdtarget-challenge/explicacao_4/)
+[Ponto em que os veículos se encontram - Com cálculos](https://github.com/brianvfarias/target-challenges2/tree/main/target-challenge/explicacao_4)
 
 ## Pergunta 5:
 
